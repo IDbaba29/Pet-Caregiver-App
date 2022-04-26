@@ -1,0 +1,60 @@
+.contactus {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/2217613/pexels-photo-2217613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 82.3vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.input {
+    background: #28ADFB;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.form_input {
+    margin: 18px;
+    border: #28ADFB;
+    padding-left: 10px;
+}
+
+.nameEmail {
+    height: 30px;
+    width: 70%;
+}
+
+.message {
+    height: 150px;
+    width: 70%;
+    padding-left: 10px;
+}
+
+.btn {
+
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: #5EF734;
+    cursor: pointer;
+}
+
+@media (min-width: 1920px) {
+    .form {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+}

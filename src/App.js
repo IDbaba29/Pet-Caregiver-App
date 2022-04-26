@@ -15,6 +15,7 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
+import Contactus from "./pages/contactus/Contactus";
 
 
 
@@ -37,6 +38,7 @@ function App() {
               <Route path="/caregivpage" element={<Caregiv />} />
               <Route path="/settings" element={ user ? <Settings />: <Register /> } />
               <Route path="/post/:postId" element={<Singcaregiv />} />
+              <Route path="/contactus" element={<Contactus />} />
 
             </Routes>
           <Footer />

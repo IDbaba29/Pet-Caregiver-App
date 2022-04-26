@@ -1,30 +1,61 @@
-.about{
-    background-image:url("https://images.pexels.com/photos/1870301/pexels-photo-1870301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") ;
+.about {
+    background-image: url("https://images.pexels.com/photos/1870301/pexels-photo-1870301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-color: #cccccc;
-     height: 102vh;
+    height: 82.3vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
+
 }
-.aboutWrapper{
+
+.aboutWrapper {
     padding: 80px;
     display: flex;
-    
+
 }
-.aboutText{
-    flex:6;
+
+.aboutText {
+    flex: 6;
     padding: auto;
 }
-h1{
-    margin: 20px;
-}
-p{
-    margin: 20px;
-    color: green;
-}
-span{
+
+h1 {
     margin: 20px;
 }
 
+p {
+    margin: 20px;
+    color: green;
+}
+
+span {
+    margin: 20px;
+}
+
+@media (min-width: 1920px) {
+    .about {
+        height: 84vh;
+    }
+
+    .aboutWrapper {
+        padding: 200px 80px;
+        display: flex;
+    }
+
+    h1 {
+        margin: 40px 20px;
+    }
+
+    p {
+        margin: 40px 20px;
+        color: green;
+        font-size: 24px;
+    }
+
+    span {
+        margin: 40px 20px;
+        font-size: 32px;
+    }
+
+}

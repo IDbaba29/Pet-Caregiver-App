@@ -1,6 +1,6 @@
 .login {
     display: flex;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 148px);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -64,4 +64,27 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
+}
+
+@media (min-width: 1920px) {
+    .login {
+        display: flex;
+        height: calc(100vh - 188px);
+    }
+
+    .loginWrapper {
+        padding-top: 150px;
+    }
+
+    .loginRegisterButton {
+        position: absolute;
+        top: 80px;
+        right: 120px;
+        background-color: #38FAA1;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+    }
 }

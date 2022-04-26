@@ -1,39 +1,46 @@
-.register{
+.register {
     display: flex;
     flex: 9;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 148px);
     align-items: center;
-    background-image: 
-        linear-gradient(rgba(255,255,255, 0.5),rgba(255,255,255, 0.5)),
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
         url("https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=940&h=650&dpr=2");
     background-size: cover;
     object-fit: cover;
-    
-    
+
+
 }
-.registerWrapper{
+
+.registerWrapper {
     margin-top: 50px;
-} 
-.registerTitle{
+
+}
+
+.registerTitle {
     font-size: 50px;
 }
-.registerForm{
+
+.registerForm {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-.registerForm> Label {
+
+.registerForm>Label {
     margin: 10px 0;
 }
+
 .registerInput {
     padding: 10px;
     background-color: #fff;
     border: none;
 }
-.registerButton{
+
+.registerButton {
     margin-top: 20px;
     cursor: pointer;
     background-color: #38FAA1;
@@ -42,7 +49,8 @@
     padding: 10px;
     border: none;
 }
-.registerLoginButton{
+
+.registerLoginButton {
     position: absolute;
     top: 60px;
     right: 20px;
@@ -54,16 +62,32 @@
     border-radius: 10px;
 }
 
+@media (min-width: 1920px) {
+    .register {
+        display: flex;
+        height: calc(100vh - 188px);
+    }
+    .registerWrapper {
+        padding-top: 150px;
+    }
+    .registerLoginButton {
+        position: absolute;
+        top: 80px;
+        right: 120px;
+        background-color: #FAB21E;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 1920px) {
+    
 
+    .loginWrapper {
+        padding-top: 150px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    
+}

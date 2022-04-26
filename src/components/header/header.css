@@ -1,6 +1,6 @@
 .header {
     margin: 60px;
-    
+
     border-radius: 10px;
 
 
@@ -16,13 +16,13 @@
 
 .headerTitleSm {
     position: absolute;
-    top: 18%;
+    top: 23%;
     font-size: 18px;
 }
 
 .headerTitleLg {
     position: absolute;
-    top: 20%;
+    top: 1%;
     font-size: 100px;
     color: yellowgreen;
 }
@@ -35,3 +35,17 @@
     border-radius: 10px;
 }
 
+@media (min-width: 1920px) {
+    .headerTitleSm {
+        position: absolute;
+        top: 13%;
+        font-size: 18px;
+    }
+
+    .headerTitleLg {
+        position: absolute;
+        top: 1%;
+        font-size: 100px;
+        color: yellowgreen;
+    }
+}
